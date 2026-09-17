@@ -1,19 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="shortcut icon" href="https://seraph-games.github.io/favicon.ico">
-    <link rel="manifest" href="https://seraph-games.github.io/manifest.json">
-        <link rel="stylesheet" href="https://seraph-games.github.io/seraph/storage/css/games.css">
-        <title>Games Seraph - Play Online</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <meta name="description" content="an open source games site hosting 500+ games, useful utilities, powerful settings + a clean user interface">
-        <meta property="og:site_name" content="seraph">
-        <meta property="og:title" content="seraph">
-        <meta property="og:type" content="website">
-        <meta property="og:description" content="an open source games site hosting 500+ games, useful utilities, powerful settings + a clean user interface">
-        
+    <!-- SEO -->
+    <title>Games Seraph - Play Free Online Games</title>
+    <meta name="description" content="Play 500+ free online games at Seraph Games. Discover browser games, useful utilities, powerful settings, and a clean open-source gaming experience.">
+    <meta name="keywords" content="Seraph Games, online games, free games, browser games, HTML5 games, unblocked games, play games online, open source games, games website">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://seraph-games.github.io/seraph/games/">
+
+    <!-- Favicon & PWA -->
+    <link rel="shortcut icon" href="https://seraph-games.github.io/favicon.ico">
+    <link rel="icon" href="https://seraph-games.github.io/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="https://seraph-games.github.io/manifest.json">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://seraph-games.github.io/seraph/storage/css/games.css">
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Seraph Games">
+    <meta property="og:title" content="Seraph Games - Play 500+ Free Online Games">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seraph-games.github.io/seraph/games/">
+    <meta property="og:description" content="Play 500+ free online browser games at Seraph Games, with useful utilities, powerful settings, and a clean open-source interface.">
+    <meta property="og:image" content="https://seraph-games.github.io/favicon.ico">
+    <meta property="og:image:alt" content="Seraph Games">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Seraph Games - Play 500+ Free Online Games">
+    <meta name="twitter:description" content="Play 500+ free online browser games with useful utilities, powerful settings, and a clean interface.">
+    <meta name="twitter:image" content="https://seraph-games.github.io/favicon.ico">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#111111">
+
+    <!-- Schema.org: WebSite -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Seraph Games",
+        "url": "https://seraph-games.github.io/",
+        "description": "Play 500+ free online browser games with useful utilities, powerful settings, and a clean open-source interface.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://seraph-games.github.io/?search={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <!-- Schema.org: FAQ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is Seraph Games?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Seraph Games is an open-source gaming website where you can discover and play more than 500 browser games online."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are the games on Seraph Games free to play?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Seraph Games provides a collection of free browser games that can be played online without requiring a traditional game installation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What types of games can I play on Seraph Games?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Seraph Games features a wide variety of browser games, including arcade, puzzle, action, sports, strategy, casual, and other HTML5 games."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I play Seraph Games on mobile devices?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Many games on Seraph Games are designed to run directly in modern web browsers and can be played on compatible smartphones, tablets, and desktop computers."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Seraph Games include useful tools and settings?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. In addition to games, Seraph Games provides useful utilities and customizable settings designed to make the browsing and gaming experience more convenient."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Schema.org: HowTo -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Play Games on Seraph Games",
+        "description": "Follow these simple steps to find and play a browser game on Seraph Games.",
+        "step": [
+            {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Open Seraph Games",
+                "text": "Visit the Seraph Games website using a modern web browser."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Choose a Game",
+                "text": "Browse the available collection of 500+ online games and select a game you want to play."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Start Playing",
+                "text": "Open the selected game and follow its on-screen instructions to start playing."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Explore More Games",
+                "text": "Return to the game collection and discover more browser games, utilities, and features."
+            }
+        ]
+    }
+    </script>
         <style>
             .pinned-container {
                 display: flex;
